@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" role="img" aria-label="Animated waves">
+  <style>
+    /* each path repeats every 600px, so sliding 600px loops seamlessly */
+    .w { animation: slide 9s linear infinite; }
+    .w2 { animation-duration: 14s; animation-direction: reverse; }
+    @keyframes slide { to { transform: translateX(-600px); } }
+    @media (prefers-reduced-motion: reduce) { .w { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#00ffc6"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
+  </defs>
+  <path class="w w2" fill="url(#a)" fill-opacity=".35" d="M0 50 Q150 20 300 50 T600 50 T900 50 T1200 50 T1500 50 T1800 50 V110 H0 Z"/>
+  <path class="w" fill="url(#a)" fill-opacity=".8" d="M0 66 Q150 96 300 66 T600 66 T900 66 T1200 66 T1500 66 T1800 66 V110 H0 Z"/>
+</svg>
