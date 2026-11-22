@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" role="img" aria-label="">
+  <style>.w{animation:slide 16s linear infinite}.w2{animation-duration:24s;animation-direction:reverse}@keyframes slide{to{transform:translateX(-600px)}}@media (prefers-reduced-motion:reduce){.w{animation:none}}</style>
+  <defs><linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#00c9a7"/><stop offset=".5" stop-color="#5e5ce6"/><stop offset="1" stop-color="#00c9a7"/></linearGradient>
+  <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="1"/><stop offset="1" stop-color="#fff" stop-opacity=".2"/></linearGradient>
+  <mask id="m"><rect width="1200" height="110" fill="url(#fade)"/></mask></defs>
+  <g mask="url(#m)">
+    <path class="w w2" fill="url(#a)" fill-opacity="0.22" d="M0 54 Q150 26 300 54 T600 54 T900 54 T1200 54 T1500 54 T1800 54 V110 H0 Z"/>
+    <path class="w" fill="url(#a)" fill-opacity="0.5" d="M0 70 Q150 96 300 70 T600 70 T900 70 T1200 70 T1500 70 T1800 70 V110 H0 Z"/>
+  </g>
+</svg>

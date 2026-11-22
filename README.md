@@ -1,106 +1,38 @@
 <a href="https://sujithsadineni.github.io/Portfolio/">
-  <img src="assets/header.svg" width="100%" alt="Sujith Kumar Sadineni: Senior Full-Stack Engineer, Cloud & Microservices Architect, React, Java & AWS Specialist" />
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" /><img src="assets/header-dark.svg" alt="Sujith Kumar Sadineni: Senior Full-Stack Engineer, Cloud & Microservices Architect, React, Java & AWS Specialist" width="100%" /></picture>
 </a>
 
 <p align="center">
-  <a href="https://sujithsadineni.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-00ffc6?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/sujith-sadineni-508322209/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="LinkedIn" /></a>
-  <a href="https://sujithsadineni.github.io/Portfolio/Sujith_Sadineni_React.pdf"><img src="https://img.shields.io/badge/Resume-6366f1?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume (PDF)" /></a>
-  <a href="https://sujithsadineni.github.io/Portfolio/#contact"><img src="https://img.shields.io/badge/Say_hi-111827?style=for-the-badge&logo=maildotru&logoColor=00ffc6" alt="Contact form" /></a>
+  <a href="https://sujithsadineni.github.io/Portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/portfolio-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/buttons/portfolio-light.svg" /><img src="assets/buttons/portfolio-dark.svg" alt="Portfolio" /></picture></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/sujith-sadineni-508322209/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/linkedin-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/buttons/linkedin-light.svg" /><img src="assets/buttons/linkedin-dark.svg" alt="LinkedIn" /></picture></a>
+  &nbsp;
+  <a href="https://sujithsadineni.github.io/Portfolio/Sujith_Sadineni_React.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/resume-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/buttons/resume-light.svg" /><img src="assets/buttons/resume-dark.svg" alt="Résumé (PDF)" /></picture></a>
+  &nbsp;
+  <a href="https://sujithsadineni.github.io/Portfolio/#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/email-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/buttons/email-light.svg" /><img src="assets/buttons/email-dark.svg" alt="Email me (contact form)" /></picture></a>
 </p>
 
 ## 👨‍💻 About me
 
-Over **7 years** of experience engineering scalable, cloud-native applications. I specialize in **React, Next.js, TypeScript, Java, Spring Boot, Node.js, GraphQL, Kafka** and **AWS**, focusing on secure API architecture, AI-enhanced workflows, and responsive, accessible UI/UX across the entire SDLC. I also build **open-source projects** like [cashflow](https://github.com/sujithsadineni/cashflow).
-
-## 🛠️ What I work with
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,angular,ts,redux,java,spring,nodejs,express,graphql,aws,docker,kubernetes,kafka,postgres,jest,cypress,grafana&perline=9" alt="React, Next.js, Angular, TypeScript, Redux, Java, Spring, Node.js, Express, GraphQL, AWS, Docker, Kubernetes, Kafka, PostgreSQL, Jest, Cypress, Grafana" />
-</p>
-
-| Area | Tools |
-| --- | --- |
-| 🤖 AI Engineering & LLM Apps | Claude API, tool use, agent loops, Zod validation, prompt caching, Claude Code |
-| 🎨 Frontend | React, Next.js, Angular, TypeScript, Redux, accessibility |
-| ⚙️ Backend | Java, Spring Boot, Node.js, Express, GraphQL, REST |
-| ☁️ Cloud & DevOps | AWS (ECS, EC2, S3, CloudWatch), CI/CD |
-| 🐳 Containers | Docker, Kubernetes, EKS, Helm |
-| ⚡ Performance & Scale | Kafka, code splitting, memoization, SQL indexing, Grafana |
-| 🧪 Testing & Quality | Jest, RTL, Cypress, JUnit, Mockito, SonarQube |
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/intro-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/intro-light.svg" /><img src="assets/intro-dark.svg" alt="Senior Full-Stack Engineer, 7+ years shipping web apps end to end at Cognizant, Morgan Stanley and NC DHHS. AI engineering with the Claude API (shipped in cashflow). Frontend: React, Next.js, Angular, TypeScript, Redux. Backend: Java, Spring Boot, Node.js, Express, GraphQL. Cloud and containers: AWS, Jenkins, Docker, Kubernetes. Data and scale: Kafka, PostgreSQL, Grafana. Testing: Jest, Cypress, RTL, JUnit, Mockito, SonarQube." width="100%" /></picture>
 
 ## 🚀 Featured projects
 
-Every project has a live demo. Click a picture to open it.
+<a href="https://sujithsadineni.github.io/Portfolio/#projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/projects-light.svg" /><img src="assets/projects-dark.svg" alt="Featured projects, rotating every 6 seconds: cashflow (featured), aws-dropvault, postdeck, aisle, doorway, PosterWall, Portfolio, patchpilot (in progress)." width="100%" /></picture></a>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://sujithsadineni.github.io/cashflow/"><img src="assets/projects/cashflow-overview.jpg" alt="cashflow overview page" /></a>
-      <h3>💰 cashflow <sup>⭐ Featured</sup></h3>
-      Household expense tracker that runs entirely on your own computer.<br/>
-      <a href="https://sujithsadineni.github.io/cashflow/">Live demo</a> · <a href="https://github.com/sujithsadineni/cashflow">Code</a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://sujithsadineni.github.io/aws-dropvault/"><img src="assets/projects/dropvault-vault.jpg" alt="aws-dropvault file vault" /></a>
-      <h3>☁️ aws-dropvault</h3>
-      Private file uploads on AWS: straight to S3, with sign-in, thumbnails and infrastructure as code.<br/>
-      <a href="https://sujithsadineni.github.io/aws-dropvault/">Live demo</a> · <a href="https://github.com/sujithsadineni/aws-dropvault">Code</a>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <a href="https://sujithsadineni.github.io/postdeck/"><img src="assets/projects/postdeck-dashboard.jpg" alt="postdeck dashboard" /></a>
-      <h3>📊 postdeck</h3>
-      A posts admin console built with Ant Design 6: charts, tables, forms and themes.<br/>
-      <a href="https://sujithsadineni.github.io/postdeck/">Live demo</a> · <a href="https://github.com/sujithsadineni/postdeck">Code</a>
-    </td>
-    <td valign="top">
-      <a href="https://sujithsadineni.github.io/aisle/"><img src="assets/projects/aisle-home.jpg" alt="aisle storefront home page" /></a>
-      <h3>🛍️ aisle</h3>
-      A modern storefront: filters, product options, cart with promo codes and a three-step checkout.<br/>
-      <a href="https://sujithsadineni.github.io/aisle/">Live demo</a> · <a href="https://github.com/sujithsadineni/aisle">Code</a>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <a href="https://sujithsadineni.github.io/doorway/"><img src="assets/projects/doorway-gallery.jpg" alt="doorway design gallery" /></a>
-      <h3>🚪 doorway</h3>
-      Ten 2026 designs for log in, sign up and checkout, with Apple, Google and passkey buttons.<br/>
-      <a href="https://sujithsadineni.github.io/doorway/">Live demo</a> · <a href="https://github.com/sujithsadineni/doorway">Code</a>
-    </td>
-    <td valign="top">
-      <a href="https://sujithsadineni.github.io/posterwall/"><img src="assets/projects/posterwall-wall.jpg" alt="PosterWall movie wall" /></a>
-      <h3>🎬 PosterWall</h3>
-      Movie posters in five languages: rate, like and discuss.<br/>
-      <a href="https://sujithsadineni.github.io/posterwall/">Live demo</a> · <a href="https://github.com/sujithsadineni/posterwall">Code</a>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <a href="https://sujithsadineni.github.io/Portfolio/"><img src="assets/projects/portfolio-home.jpg" alt="Portfolio home page" /></a>
-      <h3>✨ Portfolio Website</h3>
-      React 19 and TypeScript, light and dark, five mini-games.<br/>
-      <a href="https://sujithsadineni.github.io/Portfolio/">Live demo</a> · <a href="https://github.com/sujithsadineni/Portfolio">Code</a>
-    </td>
-    <td valign="top">
-      <a href="https://sujithsadineni.github.io/patchpilot/"><img src="assets/projects/patchpilot-soon.jpg" alt="patchpilot coming-soon page" /></a>
-      <h3>🛡️ patchpilot <sup>🚧 In progress</sup></h3>
-      Finds vulnerable npm packages and the safe version to move to.<br/>
-      <a href="https://sujithsadineni.github.io/patchpilot/">Preview</a> · <a href="https://github.com/sujithsadineni/patchpilot">Code</a>
-    </td>
-  </tr>
-</table>
+<p align="center"><sub>Live demos and details on <a href="https://sujithsadineni.github.io/Portfolio/#projects">my portfolio</a> · Code: <a href="https://github.com/sujithsadineni/cashflow">cashflow</a> · <a href="https://github.com/sujithsadineni/aws-dropvault">aws-dropvault</a> · <a href="https://github.com/sujithsadineni/postdeck">postdeck</a> · <a href="https://github.com/sujithsadineni/aisle">aisle</a> · <a href="https://github.com/sujithsadineni/doorway">doorway</a> · <a href="https://github.com/sujithsadineni/posterwall">PosterWall</a> · <a href="https://github.com/sujithsadineni/Portfolio">Portfolio</a> · <a href="https://github.com/sujithsadineni/patchpilot">patchpilot</a></sub></p>
 
 ## 📈 Journey
 
-<img src="assets/journey.svg" width="100%" alt="Journey: B.E. Computer Science at St Joseph's College of Engineering (2015–2019), Full-Stack Developer at Cognizant (2019–2022), MS Computer Science at Southern Arkansas University (2022–2024), Senior Full-Stack Developer at Morgan Stanley (2022–2025), Senior Full-Stack Developer at NC DHHS (2025–now), building AI products and open source today" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/journey-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/journey-light.svg" /><img src="assets/journey-dark.svg" alt="Journey: B.E. Computer Science at St Joseph's College of Engineering (2015–2019); Full-Stack Developer at Cognizant (2019–2022); MS Computer Science at Southern Arkansas University (2022–2024); Senior Full-Stack Developer at Morgan Stanley (2022–2025); Senior Full-Stack Developer at NC DHHS (2025–now); today building AI products and open source." width="100%" /></picture>
 
 ## 🔭 Building now
 
-- **[cashflow](https://github.com/sujithsadineni/cashflow)**: an open-source, local-first finance app with a grounded Claude assistant.
-- **[patchpilot](https://github.com/sujithsadineni/patchpilot)**: automatic vulnerability-fix and version-upgrade detection.
+<p align="center">
+  <a href="https://github.com/sujithsadineni/cashflow"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/building-cashflow-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/building-cashflow-light.svg" /><img src="assets/building-cashflow-dark.svg" alt="cashflow: open source, live. Open-source, local-first finance app with a grounded Claude assistant." width="49%" /></picture></a>
+  <a href="https://github.com/sujithsadineni/patchpilot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/building-patchpilot-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/building-patchpilot-light.svg" /><img src="assets/building-patchpilot-dark.svg" alt="patchpilot: in progress. Automatic vulnerability-fix and version-upgrade detection for npm projects." width="49%" /></picture></a>
+</p>
 
-<img src="assets/footer.svg" width="100%" alt="" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg" /><img src="assets/footer-dark.svg" alt="" width="100%" /></picture>
 
 <p align="center"><a href="https://sujithsadineni.github.io/Portfolio/">sujithsadineni.github.io/Portfolio</a> · thanks for stopping by 👋</p>

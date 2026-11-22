@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="268" viewBox="0 0 1200 268" role="img" aria-label="Journey: B.E. Computer Science, St Joseph's College of Engineering (2015 – 2019); Full-Stack Developer, Cognizant (2019 – 2022); MS Computer Science, Southern Arkansas University (2022 – 2024); Senior Full-Stack Developer, Morgan Stanley (2022 – 2025); Senior Full-Stack Developer, NC DHHS (2025 – now); Building AI products, Open source: cashflow, patchpilot.">
+  <style>text{font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif}.in{opacity:0;transform-box:fill-box;transform-origin:center;animation:in .6s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes in{from{opacity:0;transform:scale(.97) translateY(6px)}to{opacity:1;transform:none}}.rail{stroke-dasharray:1100;stroke-dashoffset:1100;animation:draw 1.6s cubic-bezier(.2,.8,.2,1) .2s forwards}@keyframes draw{to{stroke-dashoffset:0}}
+.pop{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .5s cubic-bezier(.2,.8,.2,1) forwards}@keyframes pop{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:none}}
+.breathe{transform-box:fill-box;transform-origin:center;animation:breathe 2.8s ease-in-out 2s infinite}@keyframes breathe{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:0;transform:scale(2.2)}}
+@media (prefers-reduced-motion:reduce){.rail{animation:none;stroke-dashoffset:0}.pop{animation:none;opacity:1}.breathe{animation:none;opacity:0}}@media (prefers-reduced-motion:reduce){.in{animation:fade .2s forwards}@keyframes fade{to{opacity:1}}}</style>
+  <defs><linearGradient id="edge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.9"/><stop offset=".4" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+  <defs><linearGradient id="railg" gradientUnits="userSpaceOnUse" x1="100" y1="0" x2="1100" y2="0"><stop offset="0" stop-color="#00806a"/><stop offset=".8" stop-color="#00806a"/><stop offset="1" stop-color="#5e5ce6"/></linearGradient></defs>
+  <path d="M100 64H1100" stroke="#d1d9e0" stroke-width="4" stroke-linecap="round"/>
+  <path class="rail" d="M100 64H1100" stroke="url(#railg)" stroke-width="4" stroke-linecap="round" pathLength="1100"/>
+  <g class="pop" style="animation-delay:0.20s">
+    <rect x="70" y="14" width="60" height="26" rx="13" fill="#00806a" fill-opacity=".14"/><text x="100" y="32" font-size="13.5" font-weight="800" fill="#00806a" text-anchor="middle" letter-spacing=".02em">2015</text>
+    
+    <circle cx="100" cy="64" r="9" fill="#f6f8fa" stroke="#00806a" stroke-width="3.5"/>
+    <rect x="8.5" y="94.5" width="183" height="173" rx="18" fill="#f6f8fa" stroke="#d1d9e0"/><rect x="9.5" y="95.5" width="181" height="171" rx="17" fill="none" stroke="url(#edge)"/>
+    <text x="24" y="128" font-size="16" font-weight="700" fill="#1f2328" letter-spacing="-.01em">B.E. Computer</text><text x="24" y="148" font-size="16" font-weight="700" fill="#1f2328" letter-spacing="-.01em">Science</text><text x="24" y="172" font-size="14" font-weight="400" fill="#59636e" >St Joseph's College of</text><text x="24" y="190" font-size="14" font-weight="400" fill="#59636e" >Engineering</text>
+    <text x="24" y="246" font-size="13" font-weight="600" fill="#59636e" letter-spacing=".02em">2015 – 2019</text>
+    
+  </g>
+  <g class="pop" style="animation-delay:0.47s">
+    <rect x="270" y="14" width="60" height="26" rx="13" fill="#00806a" fill-opacity=".14"/><text x="300" y="32" font-size="13.5" font-weight="800" fill="#00806a" text-anchor="middle" letter-spacing=".02em">2019</text>
+    
+    <circle cx="300" cy="64" r="9" fill="#f6f8fa" stroke="#00806a" stroke-width="3.5"/>
+    <rect x="208.5" y="94.5" width="183" height="173" rx="18" fill="#f6f8fa" stroke="#d1d9e0"/><rect x="209.5" y="95.5" width="181" height="171" rx="17" fill="none" stroke="url(#edge)"/>
+    <text x="224" y="128" font-size="16" font-weight="700" fill="#1f2328" letter-spacing="-.01em">Full-Stack</text><text x="224" y="148" font-size="16" font-weight="700" fill="#1f2328" letter-spacing="-.01em">Developer</text><text x="224" y="172" font-size="14" font-weight="400" fill="#59636e" >Cognizant</text>
+    <text x="224" y="246" font-size="13" font-weight="600" fill="#59636e" letter-spacing=".02em">2019 – 2022</text>
+    
+  </g>
+  <g class="pop" style="animation-delay:0.74s">
+    <rect x="470" y="14" width="60" height="26" rx="13" fill="#00806a" fill-opacity=".14"/><text x="500" y="32" font-size="13.5" font-weight="800" fill="#00806a" text-anchor="middle" letter-spacing=".02em">2022</text>
+    
+    <circle cx="500" cy="64" r="9" fill="#f6f8fa" stroke="#00806a" stroke-width="3.5"/>
+    <rect x="408.5" y="94.5" width="183" height="173" rx="18" fill="#f6f8fa" stroke="#d1d9e0"/><rect x="409.5" y="95.5" width="181" height="171" rx="17" fill="none" stroke="url(#edge)"/>
+    <text x="424" y="128" font-size="16" font-weight="700" fill="#1f2328" letter-spacing="-.01em">MS Computer</text><text x="424" y="148" font-size="16" font-weight="700" fill="#1f2328" letter-spacing="-.01em">Science</text><text x="424" y="172" font-size="14" font-weight="400" fill="#59636e" >Southern Arkansas</text><text x="424" y="190" font-size="14" font-weight="400" fill="#59636e" >University</text>
+    <text x="424" y="246" font-size="13" font-weight="600" fill="#59636e" letter-spacing=".02em">2022 – 2024</text>
+    
+  </g>
+  <g class="pop" style="animation-delay:1.01s">
+    <rect x="670" y="14" width="60" height="26" rx="13" fill="#00806a" fill-opacity=".14"/><text x="700" y="32" font-size="13.5" font-weight="800" fill="#00806a" text-anchor="middle" letter-spacing=".02em">2022</text>
+    
+    <circle cx="700" cy="64" r="9" fill="#f6f8fa" stroke="#00806a" stroke-width="3.5"/>
+    <rect x="608.5" y="94.5" width="183" height="173" rx="18" fill="#f6f8fa" stroke="#d1d9e0"/><rect x="609.5" y="95.5" width="181" height="171" rx="17" fill="none" stroke="url(#edge)"/>
+    <text x="624" y="128" font-size="16" font-weight="700" fill="#1f2328" letter-spacing="-.01em">Senior Full-Stack</text><text x="624" y="148" font-size="16" font-weight="700" fill="#1f2328" letter-spacing="-.01em">Developer</text><text x="624" y="172" font-size="14" font-weight="400" fill="#59636e" >Morgan Stanley</text>
+    <text x="624" y="246" font-size="13" font-weight="600" fill="#59636e" letter-spacing=".02em">2022 – 2025</text>
+    
+  </g>
+  <g class="pop" style="animation-delay:1.28s">
+    <rect x="870" y="14" width="60" height="26" rx="13" fill="#00806a" fill-opacity=".14"/><text x="900" y="32" font-size="13.5" font-weight="800" fill="#00806a" text-anchor="middle" letter-spacing=".02em">2025</text>
+    <circle class="breathe" cx="900" cy="64" r="9" fill="#00806a"/>
+    <circle cx="900" cy="64" r="9" fill="#f6f8fa" stroke="#00806a" stroke-width="3.5"/><circle cx="900" cy="64" r="4" fill="#00806a"/>
+    <rect x="808.5" y="94.5" width="183" height="173" rx="18" fill="#f6f8fa" stroke="#d1d9e0"/><rect x="809.5" y="95.5" width="181" height="171" rx="17" fill="none" stroke="url(#edge)"/>
+    <text x="824" y="128" font-size="16" font-weight="700" fill="#1f2328" letter-spacing="-.01em">Senior Full-Stack</text><text x="824" y="148" font-size="16" font-weight="700" fill="#1f2328" letter-spacing="-.01em">Developer</text><text x="824" y="172" font-size="14" font-weight="400" fill="#59636e" >NC DHHS</text>
+    <text x="824" y="246" font-size="13" font-weight="600" fill="#59636e" letter-spacing=".02em">2025 – now</text>
+    <rect x="930" y="230" width="46" height="22" rx="11" fill="#00806a" fill-opacity=".16"/><text x="953" y="245.5" font-size="12.5" font-weight="800" fill="#00806a" text-anchor="middle">Now</text>
+  </g>
+  <g class="pop" style="animation-delay:1.55s">
+    <rect x="1070" y="14" width="60" height="26" rx="13" fill="#5e5ce6" fill-opacity=".14"/><text x="1100" y="32" font-size="13.5" font-weight="800" fill="#5e5ce6" text-anchor="middle" letter-spacing=".02em">Today</text>
+    
+    <circle cx="1100" cy="64" r="9" fill="#f6f8fa" stroke="#5e5ce6" stroke-width="3.5"/><circle cx="1100" cy="64" r="4" fill="#5e5ce6"/>
+    <rect x="1008.5" y="94.5" width="183" height="173" rx="18" fill="#f6f8fa" stroke="#d1d9e0"/><rect x="1009.5" y="95.5" width="181" height="171" rx="17" fill="none" stroke="url(#edge)"/>
+    <text x="1024" y="128" font-size="16" font-weight="700" fill="#1f2328" letter-spacing="-.01em">Building AI</text><text x="1024" y="148" font-size="16" font-weight="700" fill="#1f2328" letter-spacing="-.01em">products</text><text x="1024" y="172" font-size="14" font-weight="400" fill="#59636e" >Open source: cashflow,</text><text x="1024" y="190" font-size="14" font-weight="400" fill="#59636e" >patchpilot</text>
+    
+    
+  </g>
+</svg>

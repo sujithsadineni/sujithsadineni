@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t">
+  <title id="t">Sujith Kumar Sadineni, Senior Full-Stack Engineer</title>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .mono text, text.mono { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace; }
+    .in{opacity:0;transform-box:fill-box;transform-origin:center;animation:in .6s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes in{from{opacity:0;transform:scale(.97) translateY(6px)}to{opacity:1;transform:none}}
+    .d1{animation-delay:.1s}.d2{animation-delay:.2s}.d3{animation-delay:.35s}.d4{animation-delay:.5s}
+    /* five roles, 4s each: shared keyframes, negative delays give each its own slot */
+    .role { animation: slot 20s linear infinite; }
+    @keyframes slot { 0%, 19% { opacity: 1; } 19.01%, 100% { opacity: 0; } }
+    .cover { animation: type 20s infinite; }
+    @keyframes type { 0% { transform: translateX(0); } 9%, 100% { transform: translateX(var(--w)); } }
+    .caret { animation: blink 1.06s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .in{animation:fade .2s forwards}@keyframes fade{to{opacity:1}}
+      .caret { animation: none; }
+      .role { animation: none; opacity: 0; } .role:first-child { opacity: 1; }
+      .cover { animation: none; transform: translateX(var(--w)); }
+    }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0f14"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <radialGradient id="g1"><stop offset="0" stop-color="#00c9a7" stop-opacity="0.28"/><stop offset="1" stop-color="#00c9a7" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2"><stop offset="0" stop-color="#818cf8" stop-opacity="0.28"/><stop offset="1" stop-color="#818cf8" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.05"/></pattern>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.35"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00c9a7"/><stop offset="1" stop-color="#00c9a7" stop-opacity=".82"/></linearGradient>
+    <clipPath id="card"><rect width="1200" height="320" rx="24"/></clipPath>
+    <clipPath id="well"><rect x="100" y="238" width="520" height="40"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+    <circle cx="1000" cy="70" r="280" fill="url(#g1)"/>
+    <circle cx="780" cy="320" r="260" fill="url(#g2)"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="319" rx="24" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <!-- app-icon style mark -->
+  <g class="in d1">
+    <rect x="64" y="46" width="48" height="48" rx="12" fill="url(#tile)"/>
+    <rect x="64.5" y="46.5" width="47" height="47" rx="11.5" fill="none" stroke="url(#edge)"/>
+    <text x="88" y="77" text-anchor="middle" font-size="18" font-weight="700" letter-spacing="-.01em" fill="#04130f">SS</text>
+    <text x="126" y="76" font-size="15" letter-spacing=".01em" fill="#9198a1">github.com/sujithsadineni</text>
+  </g>
+
+  <text class="in d2" x="64" y="146" font-size="20" font-weight="500" letter-spacing=".005em" fill="#9198a1">👋 Hi, I'm</text>
+  <text class="in d2" x="62" y="200" font-size="52" font-weight="700" letter-spacing="-.022em" fill="#f0f6fc">Sujith Kumar Sadineni</text>
+
+  <!-- typed role in an inset well -->
+  <g class="in d3">
+    <rect x="64" y="230" width="560" height="56" rx="16" fill="#161b22" stroke="#30363d"/>
+    <rect x="65" y="231" width="558" height="54" rx="15" fill="none" stroke="url(#edge)" stroke-opacity=".5"/>
+    <text class="mono" x="86" y="264" font-size="20" font-weight="600" fill="#00c9a7">$</text>
+    <g class="mono" font-size="20" fill="#f0f6fc" clip-path="url(#well)">
+    <g class="role" style="animation-delay:0s">
+      <text x="110" y="264" textLength="312" lengthAdjust="spacingAndGlyphs">Senior Full-Stack Engineer</text>
+      <g class="cover" style="animation-delay:0s;animation-timing-function:steps(26,end);--w:316px"><rect x="108" y="243" width="470" height="30" fill="#161b22"/><rect class="caret" x="108" y="246" width="10" height="23" rx="1.5" fill="#00c9a7"/></g>
+    </g>
+    <g class="role" style="animation-delay:-16s">
+      <text x="110" y="264" textLength="372" lengthAdjust="spacingAndGlyphs">Cloud &amp; Microservices Architect</text>
+      <g class="cover" style="animation-delay:-16s;animation-timing-function:steps(31,end);--w:376px"><rect x="108" y="243" width="470" height="30" fill="#161b22"/><rect class="caret" x="108" y="246" width="10" height="23" rx="1.5" fill="#00c9a7"/></g>
+    </g>
+    <g class="role" style="animation-delay:-12s">
+      <text x="110" y="264" textLength="336" lengthAdjust="spacingAndGlyphs">React, Java &amp; AWS Specialist</text>
+      <g class="cover" style="animation-delay:-12s;animation-timing-function:steps(28,end);--w:340px"><rect x="108" y="243" width="470" height="30" fill="#161b22"/><rect class="caret" x="108" y="246" width="10" height="23" rx="1.5" fill="#00c9a7"/></g>
+    </g>
+    <g class="role" style="animation-delay:-8s">
+      <text x="110" y="264" textLength="312" lengthAdjust="spacingAndGlyphs">AI-Powered Product Builder</text>
+      <g class="cover" style="animation-delay:-8s;animation-timing-function:steps(26,end);--w:316px"><rect x="108" y="243" width="470" height="30" fill="#161b22"/><rect class="caret" x="108" y="246" width="10" height="23" rx="1.5" fill="#00c9a7"/></g>
+    </g>
+    <g class="role" style="animation-delay:-4s">
+      <text x="110" y="264" textLength="324" lengthAdjust="spacingAndGlyphs">Open-Source Project Builder</text>
+      <g class="cover" style="animation-delay:-4s;animation-timing-function:steps(27,end);--w:328px"><rect x="108" y="243" width="470" height="30" fill="#161b22"/><rect class="caret" x="108" y="246" width="10" height="23" rx="1.5" fill="#00c9a7"/></g>
+    </g>
+    </g>
+  </g>
+
+  <!-- orbit -->
+  <g class="in d4">
+    <rect x="922" y="132" width="56" height="56" rx="14" fill="url(#tile)"/>
+    <rect x="922.5" y="132.5" width="55" height="55" rx="13.5" fill="none" stroke="url(#edge)"/>
+    <text class="mono" x="950" y="166" text-anchor="middle" font-size="17" font-weight="700" fill="#04130f">&lt;/&gt;</text>
+    <style>@keyframes oi{0.00%{transform:translate(0.0px,-64.0px)}1.39%{transform:translate(8.0px,-63.8px)}2.78%{transform:translate(16.0px,-63.0px)}4.17%{transform:translate(23.8px,-61.8px)}5.56%{transform:translate(31.5px,-60.1px)}6.94%{transform:translate(38.9px,-58.0px)}8.33%{transform:translate(46.0px,-55.4px)}9.72%{transform:translate(52.8px,-52.4px)}11.11%{transform:translate(59.1px,-49.0px)}12.50%{transform:translate(65.1px,-45.3px)}13.89%{transform:translate(70.5px,-41.1px)}15.28%{transform:translate(75.4px,-36.7px)}16.67%{transform:translate(79.7px,-32.0px)}18.06%{transform:translate(83.4px,-27.0px)}19.44%{transform:translate(86.5px,-21.9px)}20.83%{transform:translate(88.9px,-16.6px)}22.22%{transform:translate(90.6px,-11.1px)}23.61%{transform:translate(91.6px,-5.6px)}25.00%{transform:translate(92.0px,0.0px)}26.39%{transform:translate(91.6px,5.6px)}27.78%{transform:translate(90.6px,11.1px)}29.17%{transform:translate(88.9px,16.6px)}30.56%{transform:translate(86.5px,21.9px)}31.94%{transform:translate(83.4px,27.0px)}33.33%{transform:translate(79.7px,32.0px)}34.72%{transform:translate(75.4px,36.7px)}36.11%{transform:translate(70.5px,41.1px)}37.50%{transform:translate(65.1px,45.3px)}38.89%{transform:translate(59.1px,49.0px)}40.28%{transform:translate(52.8px,52.4px)}41.67%{transform:translate(46.0px,55.4px)}43.06%{transform:translate(38.9px,58.0px)}44.44%{transform:translate(31.5px,60.1px)}45.83%{transform:translate(23.8px,61.8px)}47.22%{transform:translate(16.0px,63.0px)}48.61%{transform:translate(8.0px,63.8px)}50.00%{transform:translate(0.0px,64.0px)}51.39%{transform:translate(-8.0px,63.8px)}52.78%{transform:translate(-16.0px,63.0px)}54.17%{transform:translate(-23.8px,61.8px)}55.56%{transform:translate(-31.5px,60.1px)}56.94%{transform:translate(-38.9px,58.0px)}58.33%{transform:translate(-46.0px,55.4px)}59.72%{transform:translate(-52.8px,52.4px)}61.11%{transform:translate(-59.1px,49.0px)}62.50%{transform:translate(-65.1px,45.3px)}63.89%{transform:translate(-70.5px,41.1px)}65.28%{transform:translate(-75.4px,36.7px)}66.67%{transform:translate(-79.7px,32.0px)}68.06%{transform:translate(-83.4px,27.0px)}69.44%{transform:translate(-86.5px,21.9px)}70.83%{transform:translate(-88.9px,16.6px)}72.22%{transform:translate(-90.6px,11.1px)}73.61%{transform:translate(-91.6px,5.6px)}75.00%{transform:translate(-92.0px,0.0px)}76.39%{transform:translate(-91.6px,-5.6px)}77.78%{transform:translate(-90.6px,-11.1px)}79.17%{transform:translate(-88.9px,-16.6px)}80.56%{transform:translate(-86.5px,-21.9px)}81.94%{transform:translate(-83.4px,-27.0px)}83.33%{transform:translate(-79.7px,-32.0px)}84.72%{transform:translate(-75.4px,-36.7px)}86.11%{transform:translate(-70.5px,-41.1px)}87.50%{transform:translate(-65.1px,-45.3px)}88.89%{transform:translate(-59.1px,-49.0px)}90.28%{transform:translate(-52.8px,-52.4px)}91.67%{transform:translate(-46.0px,-55.4px)}93.06%{transform:translate(-38.9px,-58.0px)}94.44%{transform:translate(-31.5px,-60.1px)}95.83%{transform:translate(-23.8px,-61.8px)}97.22%{transform:translate(-16.0px,-63.0px)}98.61%{transform:translate(-8.0px,-63.8px)}100.00%{transform:translate(-0.0px,-64.0px)}}.oi{animation:oi 40s linear infinite}@media (prefers-reduced-motion:reduce){.oi{animation-play-state:paused}}</style>
+      <ellipse cx="950" cy="160" rx="92" ry="64" fill="none" stroke="#ffffff" stroke-opacity="0.128" stroke-dasharray="3 6"/>
+      <g class="oi" style="animation-delay:0.00s"><rect x="918.5" y="145" width="63" height="30" rx="15" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14" /><rect x="919.5" y="146" width="61" height="28" rx="14" fill="none" stroke="url(#edge)"/><text x="950" y="165" text-anchor="middle" font-size="13" font-weight="600" letter-spacing=".01em" fill="#f0f6fc">React</text></g>
+      <g class="oi" style="animation-delay:-13.33s"><rect x="922.4" y="145" width="55.2" height="30" rx="15" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14" /><rect x="923.4" y="146" width="53.2" height="28" rx="14" fill="none" stroke="url(#edge)"/><text x="950" y="165" text-anchor="middle" font-size="13" font-weight="600" letter-spacing=".01em" fill="#f0f6fc">Java</text></g>
+      <g class="oi" style="animation-delay:-26.67s"><rect x="926.3" y="145" width="47.4" height="30" rx="15" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14" /><rect x="927.3" y="146" width="45.4" height="28" rx="14" fill="none" stroke="url(#edge)"/><text x="950" y="165" text-anchor="middle" font-size="13" font-weight="600" letter-spacing=".01em" fill="#f0f6fc">AWS</text></g>
+    <style>@keyframes oo{0.00%{transform:translate(0.0px,-132.0px)}1.39%{transform:translate(16.6px,-131.5px)}2.78%{transform:translate(33.0px,-130.0px)}4.17%{transform:translate(49.2px,-127.5px)}5.56%{transform:translate(65.0px,-124.0px)}6.94%{transform:translate(80.3px,-119.6px)}8.33%{transform:translate(95.0px,-114.3px)}9.72%{transform:translate(109.0px,-108.1px)}11.11%{transform:translate(122.1px,-101.1px)}12.50%{transform:translate(134.4px,-93.3px)}13.89%{transform:translate(145.5px,-84.8px)}15.28%{transform:translate(155.6px,-75.7px)}16.67%{transform:translate(164.5px,-66.0px)}18.06%{transform:translate(172.2px,-55.8px)}19.44%{transform:translate(178.5px,-45.1px)}20.83%{transform:translate(183.5px,-34.2px)}22.22%{transform:translate(187.1px,-22.9px)}23.61%{transform:translate(189.3px,-11.5px)}25.00%{transform:translate(190.0px,0.0px)}26.39%{transform:translate(189.3px,11.5px)}27.78%{transform:translate(187.1px,22.9px)}29.17%{transform:translate(183.5px,34.2px)}30.56%{transform:translate(178.5px,45.1px)}31.94%{transform:translate(172.2px,55.8px)}33.33%{transform:translate(164.5px,66.0px)}34.72%{transform:translate(155.6px,75.7px)}36.11%{transform:translate(145.5px,84.8px)}37.50%{transform:translate(134.4px,93.3px)}38.89%{transform:translate(122.1px,101.1px)}40.28%{transform:translate(109.0px,108.1px)}41.67%{transform:translate(95.0px,114.3px)}43.06%{transform:translate(80.3px,119.6px)}44.44%{transform:translate(65.0px,124.0px)}45.83%{transform:translate(49.2px,127.5px)}47.22%{transform:translate(33.0px,130.0px)}48.61%{transform:translate(16.6px,131.5px)}50.00%{transform:translate(0.0px,132.0px)}51.39%{transform:translate(-16.6px,131.5px)}52.78%{transform:translate(-33.0px,130.0px)}54.17%{transform:translate(-49.2px,127.5px)}55.56%{transform:translate(-65.0px,124.0px)}56.94%{transform:translate(-80.3px,119.6px)}58.33%{transform:translate(-95.0px,114.3px)}59.72%{transform:translate(-109.0px,108.1px)}61.11%{transform:translate(-122.1px,101.1px)}62.50%{transform:translate(-134.4px,93.3px)}63.89%{transform:translate(-145.5px,84.8px)}65.28%{transform:translate(-155.6px,75.7px)}66.67%{transform:translate(-164.5px,66.0px)}68.06%{transform:translate(-172.2px,55.8px)}69.44%{transform:translate(-178.5px,45.1px)}70.83%{transform:translate(-183.5px,34.2px)}72.22%{transform:translate(-187.1px,22.9px)}73.61%{transform:translate(-189.3px,11.5px)}75.00%{transform:translate(-190.0px,0.0px)}76.39%{transform:translate(-189.3px,-11.5px)}77.78%{transform:translate(-187.1px,-22.9px)}79.17%{transform:translate(-183.5px,-34.2px)}80.56%{transform:translate(-178.5px,-45.1px)}81.94%{transform:translate(-172.2px,-55.8px)}83.33%{transform:translate(-164.5px,-66.0px)}84.72%{transform:translate(-155.6px,-75.7px)}86.11%{transform:translate(-145.5px,-84.8px)}87.50%{transform:translate(-134.4px,-93.3px)}88.89%{transform:translate(-122.1px,-101.1px)}90.28%{transform:translate(-109.0px,-108.1px)}91.67%{transform:translate(-95.0px,-114.3px)}93.06%{transform:translate(-80.3px,-119.6px)}94.44%{transform:translate(-65.0px,-124.0px)}95.83%{transform:translate(-49.2px,-127.5px)}97.22%{transform:translate(-33.0px,-130.0px)}98.61%{transform:translate(-16.6px,-131.5px)}100.00%{transform:translate(-0.0px,-132.0px)}}.oo{animation:oo 64s linear infinite reverse}@media (prefers-reduced-motion:reduce){.oo{animation-play-state:paused}}</style>
+      <ellipse cx="950" cy="160" rx="190" ry="132" fill="none" stroke="#ffffff" stroke-opacity="0.128" stroke-dasharray="3 6"/>
+      <g class="oo" style="animation-delay:0.00s"><rect x="910.7" y="145" width="78.6" height="30" rx="15" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14" /><rect x="911.7" y="146" width="76.6" height="28" rx="14" fill="none" stroke="url(#edge)"/><text x="950" y="165" text-anchor="middle" font-size="13" font-weight="600" letter-spacing=".01em" fill="#f0f6fc">Node.js</text></g>
+      <g class="oo" style="animation-delay:-12.80s"><rect x="910.7" y="145" width="78.6" height="30" rx="15" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14" /><rect x="911.7" y="146" width="76.6" height="28" rx="14" fill="none" stroke="url(#edge)"/><text x="950" y="165" text-anchor="middle" font-size="13" font-weight="600" letter-spacing=".01em" fill="#f0f6fc">GraphQL</text></g>
+      <g class="oo" style="animation-delay:-25.60s"><rect x="914.6" y="145" width="70.8" height="30" rx="15" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14" /><rect x="915.6" y="146" width="68.8" height="28" rx="14" fill="none" stroke="url(#edge)"/><text x="950" y="165" text-anchor="middle" font-size="13" font-weight="600" letter-spacing=".01em" fill="#f0f6fc">Docker</text></g>
+      <g class="oo" style="animation-delay:-38.40s"><rect x="914.6" y="145" width="70.8" height="30" rx="15" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14" /><rect x="915.6" y="146" width="68.8" height="28" rx="14" fill="none" stroke="url(#edge)"/><text x="950" y="165" text-anchor="middle" font-size="13" font-weight="600" letter-spacing=".01em" fill="#f0f6fc">Spring</text></g>
+      <g class="oo" style="animation-delay:-51.20s"><rect x="899" y="145" width="102" height="30" rx="15" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14" /><rect x="900" y="146" width="100" height="28" rx="14" fill="none" stroke="url(#edge)"/><text x="950" y="165" text-anchor="middle" font-size="13" font-weight="600" letter-spacing=".01em" fill="#f0f6fc">Claude API</text></g>
+    
+  </g>
+</svg>
