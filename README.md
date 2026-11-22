@@ -3,13 +3,13 @@
 </a>
 
 <p align="center">
-  <a href="https://sujithsadineni.github.io/Portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/portfolio-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/buttons/portfolio-light.svg" /><img src="assets/buttons/portfolio-dark.svg" alt="Portfolio" /></picture></a>
+  <a href="https://sujithsadineni.github.io/Portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/portfolio-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/buttons/portfolio-light.svg" /><img src="assets/buttons/portfolio-dark.svg" alt="Portfolio" width="23%" /></picture></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/sujith-sadineni-508322209/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/linkedin-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/buttons/linkedin-light.svg" /><img src="assets/buttons/linkedin-dark.svg" alt="LinkedIn" /></picture></a>
+  <a href="https://www.linkedin.com/in/sujith-sadineni-508322209/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/linkedin-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/buttons/linkedin-light.svg" /><img src="assets/buttons/linkedin-dark.svg" alt="LinkedIn" width="23%" /></picture></a>
   &nbsp;
-  <a href="https://sujithsadineni.github.io/Portfolio/Sujith_Sadineni_React.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/resume-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/buttons/resume-light.svg" /><img src="assets/buttons/resume-dark.svg" alt="Résumé (PDF)" /></picture></a>
+  <a href="https://sujithsadineni.github.io/Portfolio/Sujith_Sadineni_React.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/resume-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/buttons/resume-light.svg" /><img src="assets/buttons/resume-dark.svg" alt="Résumé (PDF)" width="23%" /></picture></a>
   &nbsp;
-  <a href="https://sujithsadineni.github.io/Portfolio/#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/email-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/buttons/email-light.svg" /><img src="assets/buttons/email-dark.svg" alt="Email me (contact form)" /></picture></a>
+  <a href="https://sujithsadineni.github.io/Portfolio/#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/email-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/buttons/email-light.svg" /><img src="assets/buttons/email-dark.svg" alt="Email me (contact form)" width="23%" /></picture></a>
 </p>
 
 ## 👨‍💻 About me
